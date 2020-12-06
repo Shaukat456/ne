@@ -337,6 +337,24 @@ h6 {
     margin-bottom: 1.5rem;
     height: 200px;
 }
+/* portfolio card */
+.pcard {
+    height: 3rem;
+    background-color: #11381c !important;
+    border-radius: 3px 3px 3px 3px;
+    color:#fff;
+    margin-top: 3rem;
+    width: 400px;
+    margin-bottom: 1.5rem;
+    height: 200px;
+    transition: all .5s ease;
+
+}
+.pcard:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+
+}
 /* .card-icon {
     height: 50px;
     width: 50px;
@@ -423,45 +441,12 @@ h6 {
     font-weight: bold;
 }
 .portfolio {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-.porfolio-box
-{
-    margin-top: 2rem;
-   
-    
-}
-.porfolio-box img:hover{
-    transition: all .5s ease;
-    
-    transform: scale(1.1);
 
-}
-.porfolio-box img{
-    transition: all .5s ease;
-    
-    border-radius: 5px 5px 5px 5px;
-}
-.visit-btn {
-    height: 2rem;
-    width:5.9rem;
-    background-color: #11381c;
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 2px 2px 2px 2px;
-    margin-top: 2rem;
-    
-    transition: all .4s ease-out;
-} 
-.visit-btn:hover {
-  background-color: transparent;
-  border: 2px solid #11381c;
-  transform: scale(1.1);
-  color: #000000;
-  transition-duration: .4s;
-}
 .FreelanceLink{
     margin-top: 2rem;
     height: auto;
