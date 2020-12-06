@@ -526,12 +526,9 @@ h6 {
   
 }
 
-/* input:focus{
-    /* border: 3px solid #ffffff; */
-   
-/* } */ 
+
 .contact-form textarea:focus{
-    border: 3px solid #ffffff;
+    border: 3px solid #071f05;
 }
 
 
