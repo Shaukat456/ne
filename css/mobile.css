@@ -7,8 +7,9 @@ html{
     .progress-section img { 
         height: 300px;
         width: 320px;
-
-
+    }
+    .pcard{
+        width: 100%;
     }
 }
 @media screen and (max-width:1200px){
@@ -16,6 +17,9 @@ html{
         text-align: right;
         font-size: 0.9rem;
         
+    }
+    .pcard{
+        width: 100%;
     }
     
 }
@@ -32,6 +36,9 @@ html{
          .contact-form textarea{
             width: 20rem;
          }
+         .pcard{
+            width: 100%;
+        }
          
         }
 @media screen and (max-width:760px){
@@ -44,6 +51,9 @@ html{
         }
            
          }
+         .pcard{
+            width: 100%;
+        }
          
          .contact-form textarea{
             width: 25rem;
@@ -63,6 +73,9 @@ html{
          .contact-form textarea{
             width: 25rem;
          }
+         .pcard{
+            width: 100%;
+        }
         }
         
 @media screen and (max-width:1000px){
@@ -70,6 +83,9 @@ html{
         height: 300px !important;
         width: 200px !important;
         margin-top: 11rem;
+}
+.pcard{
+    width: 100%;
 }
 .my-navbar{
     z-index: 17;
@@ -85,6 +101,9 @@ html{
         height: 340px;
         width: 360px;
 
+    }
+    .pcard{
+        width: 100%;
     }
     .my-navbar{
         position: fixed;
@@ -104,10 +123,10 @@ html{
 @media screen and (max-width:450px){
     .contact-form input  { 
         width: 20rem;
-        
-
-         
        }
+       .pcard{
+        width: 100%;
+    }
 
        .my-navbar{
         position: fixed;
@@ -139,6 +158,9 @@ html{
         z-index: 17;
         background-color: white;
     }
+    .pcard{
+        width: 100%;
+    }
        
        .contact-form textarea{
           width: 15rem;
@@ -163,6 +185,9 @@ html{
         position: fixed;
         z-index: 17;
         background-color: white;
+    }
+    .pcard{
+        width: 100%;
     }
 }
 .fa, .fas {
