@@ -209,7 +209,7 @@ transition-duration: .6s;
     margin-top: 8rem;
     color: rgb(255, 255, 255);
     background-color:#343b46;
-    border-radius: 75% 36% 95% 68%;
+    transform: skew(90deg) ;
 
 }
 .progress {
