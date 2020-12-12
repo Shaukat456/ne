@@ -53,10 +53,13 @@ a {
 }    
 .work-btn{
     transform:skewX(30deg) skewY(4deg);
+    box-shadow:-1px 26px 12px grey;
+
 
         }
 .cv-btn{
     transform:skewX(30deg) skewY(4deg);
+    box-shadow:-34px 26px 12px grey;
 
     animation-name: cvbtn;
     animation-iteration-count: 1;
@@ -332,6 +335,7 @@ transition: all .5s ease;
     color: rgb(255, 255, 255);
     background-color:#343b46;
     transform: skew(90deg) ;
+    box-shadow:20px 20px 10px grey;
 
     animation-name: progressection;
     animation-duration: 2s;
