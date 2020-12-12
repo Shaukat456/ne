@@ -55,7 +55,6 @@ a {
     transform:skewX(30deg) skewY(4deg);
     box-shadow:-1px 26px 12px grey;
 
-
         }
 .cv-btn{
     transform:skewX(30deg) skewY(4deg);
@@ -708,3 +707,20 @@ h6 {
      border: none;
  }
  
+ .myimg{
+     width: 39%;
+     height: 50%;
+     /* margin-left: 25%; */
+     margin-top: 14%;
+
+ }
+ .Knowme-btn{
+     margin-left: 70%;
+     margin-top: -56%;
+     height: 17.5rem;
+    width: 24rem;
+    background-color: #11381c;
+    outline: none;
+    border: none;
+    border-radius: 50px 50px;
+ }

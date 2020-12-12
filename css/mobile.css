@@ -11,6 +11,24 @@ html{
     .pcard{
         width: 100%;
     }
+
+    .myimg{
+        width: 54%;
+        /* height: 50%; */
+        /* margin-left: 25%; */
+        margin-top: 14%;
+   
+    }
+    .Knowme-btn{
+        margin-left: 64%;
+        margin-top: -56%;
+        height: 6.5rem;
+       width: 9rem;
+       background-color: #11381c;
+       outline: none;
+       border: none;
+       border-radius: 50px 50px;
+    }
     
     .progress-section {
         margin-top: 8rem;
