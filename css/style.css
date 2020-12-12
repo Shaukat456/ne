@@ -54,12 +54,13 @@ a {
 .work-btn{
     transform:skewX(30deg) skewY(4deg);
     box-shadow:-1px 26px 12px grey;
+    z-index: 6;
 
         }
 .cv-btn{
     transform:skewX(30deg) skewY(4deg);
     box-shadow:-34px 26px 12px grey;
-
+    z-index: -6;
     animation-name: cvbtn;
     animation-iteration-count: 1;
     animation-duration: 2s;
