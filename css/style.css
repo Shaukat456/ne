@@ -27,6 +27,29 @@ a {
     z-index: 10;
     background-color: white;
    
+
+    animation-name: cvbtn;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+    @keyframes cvbtn {
+        from{
+            /* opacity: ; */
+            /* transform: scale(1)  ; */
+            margin-left: -774%;
+            /* margin-right: 60%; */
+            transition: all .5s ease;
+            /* background-color: tomato; */
+            
+        }       
+        to{
+            /* background-color: black; */
+            margin-left: 0%;
+            transition: all .5s ease;
+            
+
+        }
+
 }    
 .work-btn{
     transform:skewX(30deg) skewY(4deg);
@@ -126,9 +149,13 @@ transition-duration: .6s;
     border: none;
     outline: none;
     border-radius: 2px 2px 2px 2px;
-    margin: 2px 2px 2px 2px;
+    /* margin: 0 auto; */
    
-}
+    }
+
+
+   
+
 .hello-box{
     height: 2rem;
     width: 7rem;
@@ -152,15 +179,20 @@ transition-duration: .6s;
     left: 20%;
 }
 .intro {
-    
+    /* box-shadow:20px 20px 50px 15px grey;   */
+
+    /* box-shadow:20px 20px 10px grey; */
     margin-top: 17rem;
     margin-left: 6rem;
 
 }
 .intro h2 {
-
     font-family: 'Poppins', sans-serif;
-    font-size: 4.3rem;
+    /* box-shadow: 20px 20px 155px 14px grey; */
+ 
+    
+  text-shadow:-22px 18px 9px grey;
+        font-size: 4.3rem;
     /* box-shadow: 2px black; */
     transform: skewX(23deg) skewY(6deg);
 transition: all .5s ease;
@@ -191,6 +223,7 @@ transition: all .5s ease;
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
     transform: skewX(21deg) skewY(4deg);
+    text-shadow:-22px 18px 6px grey;
 
 }
 
@@ -309,8 +342,7 @@ transition: all .5s ease;
 }
 @keyframes progressection{
     20%{
-        /* margin-left: 100px; */
-        margin-right: 500px;
+        margin-left: 406px;
         transform: scale(.6);
     }
     40%{
