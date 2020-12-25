@@ -329,15 +329,15 @@ html{
 
          
        }
-       .fa, .fas {
-           font-weight: 900;
-           width: 4vw;
-           margin-top: 4%;
-       }
-       .intro p{
-           font-size: 1.6rem;
-       }
-       .intro h2 {
-           font-size: 3.2rem;
-       }
+}
+.fa, .fas {
+    font-weight: 900;
+    width: 4vw;
+    margin-top: 4%;
+}
+.intro p{
+    font-size: 1.6rem;
+}
+.intro h2 {
+    font-size: 3.2rem;
 }
