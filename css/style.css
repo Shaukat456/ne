@@ -52,7 +52,7 @@ a {
 
 }    
 .work-btn{
-    transform:skewX(30deg) skewY(4deg);
+    /* transform:skewX(30deg) skewY(4deg); */
     box-shadow:-1px 26px 12px grey;
     
     z-index: 6;
@@ -60,7 +60,7 @@ a {
 
         }
 .cv-btn{
-    transform:skewX(30deg) skewY(4deg);
+    /* transform:skewX(30deg) skewY(4deg); */
     box-shadow:-34px 26px 12px grey;
     z-index: -6;
     animation-name: cvbtn;
@@ -348,26 +348,35 @@ transition: all .5s ease;
 }
 @keyframes progressection{
     20%{
-        margin-left: 406px;
-        transform: scale(.6);
+        opacity: .1;
+        transform: scale(.1);
+        transition: all .5s ease;
+
     }
     40%{
+        transform: scale(.3);
+        /* margin-right: 599%; */
         opacity: .3;
-        margin-left: 100px;
+        transition: all .5s ease;
+
+        /* margin-left: 100px; */
     }
     
-    60%{
+    90%{
         opacity: .5;
-        /* transform: skew(180deg); */
-        margin-left: 400px;
+        transform: scale(.5);
+        /* margin-left: 400%; */
+        transform: skew(180deg);
+        /* margin-left: 400px; */
         transition: all .5s ease;
     
     }       
     100%{
         opacity: 1;
-        /* transform: skew(90deg); */
+        transform: scale(1);
+        transform: skew(90deg);
         transition: all .5s ease;
-        margin-left: 0px;
+        /* margin-left: 0px; */
 
 
     }
@@ -680,6 +689,7 @@ h6 {
 .contact-form input  {
    margin-top: 1rem;
    width: 25rem; 
+   text-align: center;
    margin-left: 1rem;
    border: 2px solid rgb(0, 0, 0);
    border-radius: 31px 25px 52px 5px;
@@ -718,6 +728,7 @@ h6 {
 
  }
  .Knowme-btn{
+     transition: all .5s ease;
      margin-left: 70%;
      margin-top: -56%;
      height: 17.5rem;
@@ -725,5 +736,35 @@ h6 {
     background-color: #11381c;
     outline: none;
     border: none;
+    font-size: 3.1em;
+    font-family: cursive;
     border-radius: 50px 50px;
- }
+
+    animation-name: knowmebtn;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+    @keyframes knowmebtn {
+        from{
+            
+            
+            margin-left: 720%;
+            margin-top: -56%;
+          
+            transition: all .5s ease;
+            
+        }       
+        to{
+            
+            transition: all .5s ease;
+            margin-left: 70%;
+         
+
+
+        }
+    }
+ 
+ .fa, .fas {
+    font-weight: 900;
+    width: 6vw;
+}
