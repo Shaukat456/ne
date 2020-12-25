@@ -676,8 +676,7 @@ h6 {
     height: 3rem;
     width: 14rem;
     background-color: bisque;
-    border-radius: 5px 25px 5px 5px;
-    
+    border-radius: 5px 25px 5px 5px;  
 }
 .smedia span {
    margin-left: 1rem;
