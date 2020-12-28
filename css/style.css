@@ -2,6 +2,7 @@
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
+    font-family: 'Audiowide', cursive;
 
 
 }
@@ -192,7 +193,8 @@ transition-duration: .6s;
 
 }
 .intro h2 {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Audiowide', cursive;
     /* box-shadow: 20px 20px 155px 14px grey; */
  
     
@@ -205,17 +207,24 @@ transition: all .5s ease;
     margin-top: -3rem;
     animation-name: h2;
     animation-iteration-count: 1;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
     @keyframes h2 {
-        from{
+        10%{
             /* margin-left: 500%; */
             opacity: .1;
             transform: scale(1.7) skewX(70deg) skewY(79deg) ;
             transition: all .5s ease;
             
         }       
-        to{
+        50%{
+          
+            opacity: 1;
+            transform: scale(1)  skewX(8deg) skewY(1deg);
+            transition: all .5s ease;
+
+        }
+        100%{
           
             opacity: 1;
             transform: scale(1)  skewX(23deg) skewY(6deg);
