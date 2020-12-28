@@ -229,7 +229,7 @@ html{
     .intro h2 {
         margin-left: 5%;
         /* font-family: 'Poppins', sans-serif; */
-        font-family: 'Audiowide', cursive;
+        
         font-size: 3.3rem;
         /* box-shadow: 2px black; */
         transform: skewX(23deg) skewY(6deg);
@@ -270,7 +270,7 @@ html{
 }
 @media screen and (max-width:370px){
     .contact-form input  { 
-        width: 18.2rem;
+        width: 20rem;
         margin-left: 0rem;
 
          
