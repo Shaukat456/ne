@@ -209,12 +209,14 @@ transition: all .5s ease;
 }
     @keyframes h2 {
         from{
+            /* margin-left: 500%; */
             opacity: .1;
             transform: scale(1.7) skewX(70deg) skewY(79deg) ;
             transition: all .5s ease;
             
         }       
         to{
+          
             opacity: 1;
             transform: scale(1)  skewX(23deg) skewY(6deg);
             transition: all .5s ease;
