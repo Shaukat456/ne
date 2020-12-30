@@ -8,6 +8,24 @@
 html{
     scroll-behavior:smooth;
 }
+.navbar-light .navbar-toggler {
+    /* border-color: rgba(0,0,0,.1); */
+    background-color: black;
+    color: #ffbf00;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1100%;
+    transform: rotateX(5deg);
+
+}
+.fa-ellipsis-v:before {
+    color: #ffbf00;
+    /* height: 200%; */
+    display: flex;
+    margin-bottom: 20px;
+
+}
 
 
 @media screen and (max-width: 995px){
