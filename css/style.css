@@ -8,7 +8,7 @@
 }
 html{
     scroll-behavior: smooth;
-    transition: all .6s ease;
+    /* transition: all .6s ease; */
     
 }
 
@@ -732,7 +732,13 @@ h6 {
      width: 5rem;
      background-color:#11381c;
      color: #fff;
-     border: none;
+ }
+ .submit-btn:hover{
+    font-stretch: expanded;
+     transform: scale(1.1);
+     background-color:rgb(75, 116, 0);
+     color: rgb(1, 15, 53);
+
  }
  
  .myimg{

@@ -318,7 +318,7 @@
                                 <br>
                             
 
-                                <input type="submit" class="submit-btn" id='submitBtn'></button>
+                                <input type="button" value="Submit" class="submit-btn" id='submitBtn'></button>
                             </form>
                             <p>Copyright &#169; Shaukat Sohail. All Rights Reserved </p>
                         </div>
@@ -361,16 +361,28 @@
     <!-- </script> -->
 
     <script>
+        const name=prompt('Your Name')
         const formSub=document.getElementById('contact-form');
         const SubmitBtn=document.getElementById('submitBtn')
 
-        SubmitBtn.addEventListener('click', function(Event){
+
+        //  SubmitBtn.innerHTML='Form'
+         
+        SubmitBtn.addEventListener('click', (Event)=>{
             Event.preventDefault()
-        
             setTimeout(() => {
-                SubmitBtn.innerHTML='Form Submitted'
-            }, 1000);
+                 
+                 console.log(SubmitBtn.getAttribute('value'))
+                 SubmitBtn.setAttribute('value','Thank you ' + name)
+
+                
+            }, 3000);
+            
+            
+               
+            
         })
+        
     </script>
 </body>
 
