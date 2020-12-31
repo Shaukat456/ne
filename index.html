@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto ">
                             <li class="nav-item active">
-                                <a class="nav-link " href="#knowme">SHAUKAT SOHAIL</a>
+                                <a class="nav-link "  href="#knowme">SHAUKAT SOHAIL</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#services">SKILLS</a>
@@ -316,13 +316,13 @@
 
 
                                 <br>
-
+                            
 
                                 <input type="submit" class="submit-btn" id='submitBtn'></button>
                             </form>
                             <p>Copyright &#169; Shaukat Sohail. All Rights Reserved </p>
                         </div>
-
+                        
                     </div>
 
                 </div>
@@ -366,8 +366,10 @@
 
         SubmitBtn.addEventListener('click', function(Event){
             Event.preventDefault()
-            
-            
+        
+            setTimeout(() => {
+                SubmitBtn.innerHTML='Form Submitted'
+            }, 1000);
         })
     </script>
 </body>
