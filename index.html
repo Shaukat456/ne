@@ -292,7 +292,7 @@
                     </div>
                     <div class="col-md-6">
                         <h2></h2>
-                        <div class="contact-form">
+                        <div class="contact-form " id='contact-form '>
                             <form>
                                 <table class="desktop-view-form">
                                     <tr>
@@ -318,7 +318,7 @@
                                 <br>
 
 
-                                <input type="submit" class="submit-btn"></button>
+                                <input type="submit" class="submit-btn" id='submitBtn'></button>
                             </form>
                             <p>Copyright &#169; Shaukat Sohail. All Rights Reserved </p>
                         </div>
@@ -352,16 +352,28 @@
 
         </script>
 
-    <script src="js/smooth-scroll.js"></script>
+    <!-- <script src="js/smooth-scroll.js"></script>
     <script>
+    </script>/ -->
 
-    </script>
     <!-- <script src="js/wow.min.js"></script> -->
-    <script>
+    <!-- <script> -->
+    <!-- </script> -->
 
-    </script>
     <script>
-        
+        const formSub=document.getElementById('contact-form');
+        const SubmitBtn=document.getElementById('submitBtn')
+
+        SubmitBtn.addEventListener('click', function(Event){
+            Event.preventDefault()
+            
+            if (formSub.childNodes[0]===null) {
+                    alert('fill the form first')
+            } else {
+                    alert('Form Submitted')
+                
+            }
+        })
     </script>
 </body>
 
