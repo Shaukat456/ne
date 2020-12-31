@@ -301,10 +301,10 @@
 
                                     </tr>
                                     <tr>
-                                        <td><input type="mail" placeholder="Did You Like the Design?" required></td>
+                                        <td><input type="text" placeholder="Any Suggestions?" required></td>
                                     </tr>
                                     <tr>
-                                        <td><input type="text" placeholder=" Rate it on a scale of 10">
+                                        <td><input type="number" placeholder=" Rate it on a scale of 10">
                                         </td>
 
 
@@ -367,12 +367,7 @@
         SubmitBtn.addEventListener('click', function(Event){
             Event.preventDefault()
             
-            if (formSub.childNodes[0]===null) {
-                    alert('fill the form first')
-            } else {
-                    alert('Form Submitted')
-                
-            }
+            
         })
     </script>
 </body>
