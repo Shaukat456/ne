@@ -57,13 +57,66 @@ a {
     box-shadow:-1px 26px 12px grey;
     
     z-index: 6;
-    
+
+        }
+        .cv-btn::before{
+            content: 'Click Here to get My Resume';
+            height: 4rem;
+            width: 7rem;
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(0, 173, 14);
+            color: blanchedalmond;
+            position: absolute;
+            z-index: -9;
+            transition: all .5s ease;
+            display: none;
+            overflow: scroll;
+        }
+        .cv-btn:hover::before{
+           transform: scale(2) skew(5deg);
+           z-index: 6;
+           display:flex;
+           transition: all .5s ease;
+           animation-name: cvbtnhover;
+           animation-iteration-count: 1;
+           animation-duration: 5s;
+           transition: all .5s ease;
+       }
+           @keyframes cvbtnhover {
+               10%{
+                   /* opacity: ; */
+                   /* transform: scale(1)  ; */
+                   opacity: .6;
+                   /* margin: 2px 2px 2px 2px; */
+                   margin-right: 60%;
+                   transition: all 5s ease;
+                   
+               }       
+               40%{
+                   opacity: 1;
+                   /* transform: scale(1)  skewX(23deg) skewY(6deg); */
+                   transition: all .5s ease;
+                   margin-right: 20%;
+                   
+               }
+
+               100%{
+                margin-right: 100%;
+                   
+               }
+
+
+
+        
 
         }
 .cv-btn{
     /* transform:skewX(30deg) skewY(4deg); */
     box-shadow:-34px 26px 12px grey;
     z-index: -6;
+    transition: all .5s ease;
+
     animation-name: cvbtn;
     animation-iteration-count: 1;
     animation-duration: 2s;
